@@ -2,6 +2,8 @@
 
 This repository publishes a static, read-only dashboard through GitHub Pages. It contains a public lock page and an encrypted HTML snapshot. It does not contain the fitness project, original trackers, diet workbook, shared memory, medical files or the dashboard passphrase.
 
+The owner has selected a public publication repository. GitHub Pages is configured to use GitHub Actions, and PC2_PAGES_ENABLED is enabled. The initial deployment contains the empty snapshot placeholder only. No health snapshot is included until it is encrypted locally with the owner's passphrase.
+
 Pushes to main run validation/tests. Once Pages is available and configured, set the repository Actions variable PC2_PAGES_ENABLED to true to enable automatic packaging and deployment. Before that, deployment jobs are skipped and checks still run. Pull requests run checks without deployment. In repository Settings → Pages, select GitHub Actions as the source. The Actions deployment result supplies the actual site URL; do not assume a deployment succeeded merely because a commit was pushed.
 
 ## First publication
