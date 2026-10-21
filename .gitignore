@@ -1,0 +1,5 @@
+# This repository contains only the public lock screen, ciphertext and CI.
+/_site/
+/node_modules/
+*.tmp
+.env*

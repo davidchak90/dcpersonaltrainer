@@ -1,0 +1,12 @@
+{
+  "name": "pc2-encrypted-aio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test scripts/validate.test.mjs",
+    "check": "node scripts/validate.mjs",
+    "prepare-pages": "node scripts/validate.mjs --prepare"
+  },
+  "engines": {"node": ">=22"}
+}
